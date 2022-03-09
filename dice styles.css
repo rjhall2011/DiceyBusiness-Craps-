@@ -1,0 +1,40 @@
+*{
+    box-sizing: initial;
+}
+
+.die{
+    width: 8rem;
+    height: 8rem;
+    padding: 0.25rem;
+    margin: 2rem;
+    background-color: rgba(1, 221, 1, 0.875);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#rollDiceButton{
+    color:rgba(1, 221, 1, 0.875)
+    
+}
+#startOverButton{
+    color: rgba(221, 1, 1, 0.875);
+}
+
+
+
+body{
+    background: url("dicebg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+
+.die:hover{
+    cursor: pointer;
+    color:rgba(1, 221, 1, 0.875)
+}
+
+img {
+    width: 128px;
+    height: 128px;
+}
