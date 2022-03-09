@@ -22,7 +22,7 @@ $(document).ready(() => {
 
     const rollDice = () => {
         for (let i = 0; i < diceOnScreen.length; i ++) {
-            diceOnScreen
+            diceOnScreen [i].roll();
         }
     }
 
